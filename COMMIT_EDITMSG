@@ -1,0 +1,7 @@
+BFSI B1: Quantum Data Masking & PQC — clean submission
+
+- Quantum Entropy (IBM Quantum / AerSimulator) seeds HMAC tokens
+- NIST FIPS 203/204 PQC (ML-KEM-768 + ML-DSA-65) audit chain
+- AST lineage, role-based masking, read-only SQLite
+- No secrets, no pack data, no LLM dependencies
+- Tests + pinned requirements + guidelines structure

@@ -1,0 +1,68 @@
+# ===========================================================================
+# TalentAP Mega Hackathon 2026 · BFSI B1 Coding Guidelines compliant
+# Rules 2, 3, 7, 11: no secrets, no data dumps, no venvs, no models
+# ===========================================================================
+
+# Environment & Secrets (Rule 3)
+.env
+*.env
+!.env.example
+*.pem
+*.key
+*.token
+keys/
+FULL_CODE/keys/
+
+# Python
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# Databases & Pack Data (Rule 2) — never commit
+*.db
+*.sqlite
+*.sqlite3
+data/bank.db
+data/pii_catalog.json
+data/audit_chain.jsonl
+FULL_CODE/data/bank.db
+FULL_CODE/data/pii_catalog.json
+FULL_CODE/data/audit_chain.jsonl
+data/csv/
+FULL_CODE/data/csv/
+sql/
+*.sql.dump
+
+# Downloaded Models & Large Artifacts (Rule 2 & 11)
+models/
+LLM/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.zip
+*.tar.gz
+*.7z
+
+# OS & Editor Junk (Rule 7)
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log
+tmp/
+temp/
