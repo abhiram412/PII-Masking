@@ -1,0 +1,12 @@
+# Pinned for reproducibility (Rule 5). Run: pip install -r requirements.txt
+streamlit==1.39.0
+pandas==2.2.3
+sqlglot==25.24.5
+python-dotenv==1.0.1
+cryptography==43.0.3
+qiskit==1.2.4
+qiskit-aer==0.15.1
+qiskit-ibm-runtime==0.30.0
+dilithium-py==1.0.4
+kyber-py==1.0.1
+pytest==8.3.3

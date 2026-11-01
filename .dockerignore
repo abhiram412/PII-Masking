@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+data/bank.db
+data/pii_catalog.json
+data/audit_chain.jsonl
+data_masking/
+screenshots/
+.env
+.git/
+.pytest_cache/
